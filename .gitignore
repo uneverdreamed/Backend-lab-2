@@ -361,3 +361,16 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Результаты сборки
+bin/
+obj/
+
+# Visual Studio
+.vs/
+*.user
+
+# Базы данных SQLite
+*.db
+*.db-shm
+*.db-wal
