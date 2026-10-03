@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Seismic.Alerts.Consumer/Seismic.Alerts.Consumer.csproj" />
+  <Project Path="Seismic.Alerts.Contracts/Seismic.Alerts.Contracts.csproj" />
+  <Project Path="Seismic.Alerts.Publisher/Seismic.Alerts.Publisher.csproj" />
+</Solution>

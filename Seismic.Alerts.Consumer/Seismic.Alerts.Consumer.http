@@ -1,0 +1,6 @@
+@Seismic.Alerts.Consumer_HostAddress = http://localhost:5193
+
+GET {{Seismic.Alerts.Consumer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

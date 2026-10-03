@@ -1,0 +1,17 @@
+services:
+  rabbitmq:
+    image: rabbitmq:4-management
+    container_name: seismic-rabbitmq
+    hostname: seismic-rabbitmq
+    ports:
+      - "5672:5672"     
+      - "15672:15672"  
+    environment:
+      RABBITMQ_DEFAULT_USER: seismic
+      RABBITMQ_DEFAULT_PASS: seismic
+    volumes:
+      - rabbitmq-data:/var/lib/rabbitmq
+    restart: unless-stopped
+
+volumes:
+  rabbitmq-data:
